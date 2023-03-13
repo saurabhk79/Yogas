@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="m-8 flex flex-col items-center">
       <div className="mt-10 text-3xl font-bold">About Us</div>
-      <div className="text-lg text-center my-5 w-1/2">
+      <div className="text-lg text-center my-5 md:w-1/2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
         obcaecati corporis dolores sed id illum, provident est vero numquam
         neque.

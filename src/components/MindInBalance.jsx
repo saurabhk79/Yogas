@@ -3,10 +3,10 @@ import innerMiddleImage from "/yogas/yoga_mo1.png";
 
 const MindInBalance = () => {
   return (
-    <div className="bg-slate-900 text-white m-8 flex justify-between">
-      <img src={innerMiddleImage} alt="" width={400} />
+    <div className="bg-slate-900 text-white m-8 flex justify-between flex-wrap md:flex-nowrap text-center md:text-left">
+      <img src={innerMiddleImage} alt="" width={420} />
 
-      <div className="w-3/5 p-8">
+      <div className="md:w-3/5 p-8">
         <div className="text-3xl font-bold mb-8 md:text-5xl">
           The Inner Middle.
         </div>

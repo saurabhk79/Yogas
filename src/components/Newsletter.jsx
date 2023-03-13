@@ -9,7 +9,7 @@ const Newsletter = () => {
       </div>
       <form className="bg-white p-2 flex items-center justify center rounded-lg">
         <input
-          type="text"
+          type="email"
           placeholder="Your Email"
           className="p-2 text-black text-lg md:w-[18rem] outline-none"
         />

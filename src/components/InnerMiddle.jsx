@@ -3,8 +3,8 @@ import innerMiddleImage from "/yogas/yoga_mo.png";
 
 const InnerMiddle = () => {
   return (
-    <div className="bg-slate-900 text-white m-8 flex justify-between">
-      <div className="w-3/5 p-8">
+    <div className="bg-slate-900 text-white m-8 flex justify-between flex-wrap md:flex-nowrap">
+      <div className="lg:w-3/5 p-8 text-center md:text-left">
         <div className="text-3xl font-bold mb-8 md:text-5xl ">
           The Inner Middle.
         </div>
@@ -20,7 +20,7 @@ const InnerMiddle = () => {
           </button>
         </div>
       </div>
-      <img src={innerMiddleImage} alt="" width={400} />
+      <img src={innerMiddleImage} alt="" width={420} />
     </div>
   );
 };

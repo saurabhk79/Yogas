@@ -6,20 +6,20 @@ const Form = () => {
       <input
         type="text"
         placeholder="Name"
-        className="px-6 py-3 hover:shadow-md outline-none rounded-lg w-full my-4 hover:bg-slate-50"
+        className="px-6 py-3 hover:shadow-md outline-none rounded-lg w-full my-4 hover:bg-slate-100 bg-slate-50"
       />
       <input
         type="email"
         placeholder="Email"
-        className="px-6 py-3 hover:shadow-md outline-none rounded-lg w-full my-4 hover:bg-slate-50"
+        className="px-6 py-3 hover:shadow-md outline-none rounded-lg w-full my-4 hover:bg-slate-100 bg-slate-50"
       />
       <input
         type="number"
         placeholder="Phone number"
-        className="px-6 py-3 hover:shadow-md outline-none rounded-lg w-full my-4 hover:bg-slate-50"
+        className="px-6 py-3 hover:shadow-md outline-none rounded-lg w-full my-4 hover:bg-slate-100 bg-slate-50"
       />
       <textarea
-        className="px-4 resize-none hover:bg-slate-50 w-full my-4 py-3 hover:shadow-md outline-none rounded-lg"
+        className="px-4 resize-none hover:bg-slate-100 bg-slate-50 w-full my-4 py-3 hover:shadow-md outline-none rounded-lg"
         rows="5"
         placeholder="Message"
       ></textarea>
